@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initAutocomplete" async defer></script>
+</head>
+<body>
+    <div class="card">
+        <!-- Remove the hardcoded source and let JavaScript handle it -->
+        <video autoplay muted loop id="bgVideo">
+            <!-- No source here - it will be set by JavaScript -->
+        </video>
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="image/search.png" alt="search"></button>
+        </div>
+        <div class="weather">
+            <img src="image/rain.png" alt="barish" class="weather-icon">
+            <h1 class="temp">32°c</h1>
+            <h2 class="city">Delhi</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="image/wind.png" alt="">
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            <p id="aiSuggestion">🤖 AI Tip will appear here...</p>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>

@@ -8,7 +8,7 @@ Weather.ai is a visually engaging, real-time weather forecasting web application
 
 ## 🔗 Live Demo
 
-👉 [https://vikash0064.github.io/Weather.ai/](https://vikash0064.github.io/Weather.ai/)  
+👉 (https://vikash0064.github.io/Weather.ai/)  
 *(Hosted using GitHub Pages — no server required)*
 
 ---
